@@ -2216,4 +2216,4 @@ client.on('message', message => {
 //rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
        
-client.login(process.env.BOT_TOKEN);
+client.login('NDg2MTE3MTU1NDg2Njk1NDI0.DnHHaw.bhJr7bnjiuWGB1TCFv3j3e7zR40');

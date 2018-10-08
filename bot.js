@@ -14,7 +14,7 @@ console.log("Welcome Again !");
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
-
+https://discord.gg/Yra674X
 
 https://discord.gg/hU7jZzv 
 `)
@@ -27,7 +27,7 @@ client.on("guildMemberAdd", member => {
   return channel.send(` 
 
 
-
+https://discord.gg/Yra674X
 
 https://discord.gg/hU7jZzv
 `) 

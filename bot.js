@@ -16,8 +16,7 @@ console.log("Welcome Again !");
   return channel.send(` 
 
 
-https://discord.gg/pfVYHFc
-  
+https://discord.gg/hU7jZzv 
 `)
 }).catch(console.error)
 
@@ -29,11 +28,11 @@ client.on("guildMemberAdd", member => {
 
 
 
-https://discord.gg/pfVYHFc
 
+https://discord.gg/hU7jZzv
 `) 
 }).catch(console.error)
 })
 
 
-client.login('NDk4NTg1ODU2OTExNjA1Nzgw.DpwBdA.MgubJE5D-mBF32fKjUYioe_C3SQ');
+client.login('NDc2MDEwNjEyMTU4MjM0NjI0.Dp0hAg.MdaO4KZK3An_nQrWGbvusRMRrsY');

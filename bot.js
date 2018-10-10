@@ -12,10 +12,7 @@ channel.send(`**سبام يولد ام الفلة**`);
 
 
  
-client.on('ready', () => {
-  client.user.setActivity("help l shows help page.", {url: "https://www.twitch.tv"});
-  console.log(`${client.user.tag} running on ${client.guilds.size} guilds with ${client.users.size} users.`);
-});
+
 
 client.on('message', async msg=> {
   if (msg.content === 'sp') {
@@ -59,7 +56,6 @@ channel.send(`**سبام يولد ام الفلة**`);
 }, 1000)
 })
 
- 
  
 
 

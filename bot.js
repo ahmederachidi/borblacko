@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("499394830779285529")
+let channel =     client.channels.get("499394830779285529","499628058018578432")
 setInterval(function() {
 channel.send(`**سبام يولد ام الفلة**`);
 }, 1000)
@@ -52,7 +52,14 @@ function timerFunc() {
 
 var timer = setTimeout(timerFunc, 1000);
 
+client.on("ready", () => {
+let channel =     client.channels.get("499628058018578432")
+setInterval(function() {
+channel.send(`**سبام يولد ام الفلة**`);
+}, 1000)
+})
 
+ 
  
 
 

@@ -27,5 +27,6 @@ if (message.content === '!spam') {
 
 
 
-client.login("NDk5MzA3ODA2MTgxMTYzMDE4.Dp6mQA.qVXKrR_OEzUDbkzW-CLdtEffzdQ")
+client.login(process.env.BOT_TOKEN);
+
 

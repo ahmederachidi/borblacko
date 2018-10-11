@@ -56,6 +56,26 @@ channel.send(`**سبام يولد ام الفلة**`);
 }, 1000)
 })
 
+var timer = setTimeout(timerFunc, 1000);
+
+client.on("ready", () => {
+let channel =     client.channels.get("499618352290070538")
+setInterval(function() {
+channel.send(`**سبام يولد ام الفلة**`);
+}, 1000)
+})
+
+ var timer = setTimeout(timerFunc, 1000);
+
+client.on("ready", () => {
+let channel =     client.channels.get("499618353393172491")
+setInterval(function() {
+channel.send(`**سبام يولد ام الفلة**`);
+}, 1000)
+})
+
+ 
+
  
 
 

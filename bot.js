@@ -8,7 +8,21 @@ channel.send(`**سبام يولد ام الفلة**`);
 }, 1000)
 })
 
+client.on('message', msg => {
+  if(msg.content === 'هلا')
+              setTimeout(function() {  
+msg.reply('هلا فيك')
+              }, 100)
+});
 
+
+
+client.on('message', msg => {
+  if(msg.content === 'السلام عليكم')
+              setTimeout(function() {  
+msg.reply('وعليكم السلام')
+              }, 100)
+});
 
 
 var ServerID = "500335405359693824"; //اي دي السيرفر

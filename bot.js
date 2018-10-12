@@ -3,23 +3,6 @@ const client = new Discord.Client();
 
 
 
-var timer = setTimeout(timerFunc, 1000);
-
-client.on("ready", () => {
-let channel =     client.channels.get("500336272125067299")
-setInterval(function() {
-channel.send(`**سبام يولد ام الفلة**`);
-}, 1000)
-})
-
- var timer = setTimeout(timerFunc, 1000);
-
-client.on("ready", () => {
-let channel =     client.channels.get("500336212209303552")
-setInterval(function() {
-channel.send(`**سبام يولد ام الفلة**`);
-}, 1000)
-})
 
 
 var ServerID = "500335405359693824"; //اي دي السيرفر

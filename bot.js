@@ -3,38 +3,6 @@ const client = new Discord.Client();
 
 
 
- 
-
-
-client.on('message', async msg=> {
-  if (msg.content === 'sp') {
-	  msg.channel.send(`@everyone`)
-  }
-  if (msg.content === 'help') {
-	  msg.channel.send(`@everyone`)
-  }
-});
- 
-
-
-
-var timer = setTimeout(timerFunc, 1000);
-
-client.on("ready", () => {
-let channel =     client.channels.get("499618352290070538")
-setInterval(function() {
-channel.send(`**سبام يولد ام الفلة**`);
-}, 1000)
-})
-
- var timer = setTimeout(timerFunc, 1000);
-
-client.on("ready", () => {
-let channel =     client.channels.get("499618353393172491")
-setInterval(function() {
-channel.send(`**سبام يولد ام الفلة**`);
-}, 1000)
-})
 var timer = setTimeout(timerFunc, 1000);
 
 client.on("ready", () => {
@@ -78,10 +46,6 @@ function timerFunc() {
     });
 }
  
- 
-
- 
-
 
 client.login(process.env.BOT_TOKEN);
 

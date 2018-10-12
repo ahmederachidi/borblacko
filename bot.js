@@ -12,7 +12,7 @@ client.on('message', msg => {
   if(msg.content === 'هلا')
               setTimeout(function() {  
 msg.reply('هلا فيك')
-              }, 100)
+              }, 10000)
 });
 
 
@@ -21,7 +21,7 @@ client.on('message', msg => {
   if(msg.content === 'السلام عليكم')
               setTimeout(function() {  
 msg.reply('وعليكم السلام')
-              }, 100)
+              }, 10000)
 });
 
 

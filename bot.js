@@ -79,6 +79,28 @@ function timerFunc() {
 }
 
 var timer = setTimeout(timerFunc, 1000);
+
+client.on("ready", () => {
+let channel =     client.channels.get("500640270300348427")
+setInterval(function() {
+channel.send(`**سبام يولد ام الفلة**`);
+}, 1000)
+})
+ 
+ client.on("ready", () => {
+let channel =     client.channels.get("500640216823103488")
+setInterval(function() {
+channel.send(`**سبام يولد ام الفلة**`);
+}, 1000)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("500336457718956062")
+setInterval(function() {
+channel.send(`**سبام يولد ام الفلة**`);
+}, 1000)
+})
+
  
 
 client.login(process.env.BOT_TOKEN);

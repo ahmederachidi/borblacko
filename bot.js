@@ -53,68 +53,6 @@ var timer = setTimeout(timerFunc, 1000);
 
 
 
-client.on('message', message => {
-    if (message.author.bot) return;
-     if (message.content ===  "هلا") {
-		 
-            
-	
-		 
-
-
- message.author.sendMessage(`
- 
-هلا
-ممكن تخش سيرفر 
-https://discord.gg/RS6dtJ
-`);
-
-    }
-});
-
-client.on('message', message => {
-    if (message.author.bot) return;
-     if (message.content ===  "السلام عليكم") {
-		 
-            
-	
-		 
-
-
- message.author.sendMessage(`
- 
-هلا
-ممكن تخش سيرفر 
-https://discord.gg/RS6dtJ
-`);
-
-    }
-});
-client.on('message', message => {
-    if (message.author.bot) return;
-     if (message.content ===  "باك") {
-		 
-            
-	
-		 
-
-
- message.author.sendMessage(`
- 
-هلا
-ممكن تخش سيرفر 
-https://discord.gg/RS6dtJ
-`);
-
-    }
-});
-
-client.on('message', msg => {
-  if(msg.content === 'هلا')
-              setTimeout(function() {  
-msg.reply('ممكن خاص')
-              }, 100000)
-})
 
 client.login(process.env.BOT_TOKEN);
 

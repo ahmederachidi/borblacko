@@ -6,7 +6,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
 let channel =     client.channels.get("500336272125067299")
 setInterval(function() {
-channel.send(`**سبام يولد ام الفلة**`);
+channel.send(`** يولد ام الفلة**`);
 }, 1000)
 })
 

@@ -103,7 +103,7 @@ channel.send(`**سبام يولد ام الفلة**`);
 
  client.on('ready', function(){
   client.user.setStatus("dnd");
-    var ms = 4000 ;	
+    	
     var setGame = ['تبي شي خاص','فل داتا 7الاف كريديت','ابيع كل شي تقريبا'];	
     var i = -1;	
     var j = 0;	

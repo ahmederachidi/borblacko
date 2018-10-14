@@ -81,7 +81,7 @@ channel.send(`**سبام يولد ام الفلة**`);
 
 client.on('ready', function(){
   client.user.setStatus("dnd");
-    var ms = 1 ;	
+    var ms = 9999999999999999999999999999999999999999999999999999 ;	
     var setGame = [`ابيع كل شي`,`فل داتا 7 الاف كريديت`];
     var i = -1;	
     var j = 0;	

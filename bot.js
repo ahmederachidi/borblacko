@@ -116,7 +116,7 @@ j = 1;
       }	
        i = i+j;	
         client.user.setGame(setGame[i],`https://www.twitch.tv/idk`);	
-}, ms);	
+
 	
 });
 

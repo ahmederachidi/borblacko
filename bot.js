@@ -104,7 +104,7 @@ channel.send(`**سبام يولد ام الفلة**`);
 
 client.on('ready', function(){
     client.user.setStatus("dnd");
-    var ms = 100000 ;
+    var ms = 100 ;
     var setGame = [`ابيع كل شي`,`فل داتا 7 الاف كريديت`];
     var i = -1;
     var j = 0;
@@ -117,7 +117,7 @@ client.on('ready', function(){
         }
         i = i+j;
         client.user.setGame(setGame[i],`http://www.twitch.tv/KiNg66S`);
-    }, ms);100000
+    }, ms);
 
 });
 

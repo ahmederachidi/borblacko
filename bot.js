@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+client.user.setGame(' ابيع كل شي تقريبا ','https://www.twitch.tv/peery13');
 client.on("ready", () => {
 let channel =     client.channels.get("500336272125067299")
 setInterval(function() {

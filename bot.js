@@ -101,24 +101,7 @@ channel.send(`**سبام يولد ام الفلة**`);
 }, 1000)
 })
 
- client.on('ready', function(){
-  client.user.setStatus("dnd");
-    	
-    var setGame = ['تبي شي خاص','فل داتا 7الاف كريديت','ابيع كل شي تقريبا'];	
-    var i = -1;	
-    var j = 0;	
-    setInterval(function (){	
-        if( i == -1 ){	
-j = 1;	
-       }	
-        if( i == (setGame.length)-1 ){	
-            j = -1;	
-      }	
-       i = i+j;	
-        client.user.setGame(setGame[i],`https://www.twitch.tv/idk`);	
 
-	
-});
 
 client.login(process.env.BOT_TOKEN);
 

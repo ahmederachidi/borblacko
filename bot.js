@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.user.setGame(' ابيع كل شي تقريبا ','https://www.twitch.tv/peery13');
+
 client.on("ready", () => {
 let channel =     client.channels.get("500336272125067299")
 setInterval(function() {
@@ -102,6 +102,24 @@ channel.send(`**سبام يولد ام الفلة**`);
 })
 
 
+client.on('ready', function(){
+    client.user.setStatus("dnd");
+    var ms = 100000 ;
+    var setGame = [`ابيع كل شي`,`فل داتا 7 الاف كريديت`];
+    var i = -1;
+    var j = 0;
+    setInterval(function (){
+        if( i == -1 ){
+            j = 1;
+        }
+        if( i == (setGame.length)-1 ){
+            j = -1;
+        }
+        i = i+j;
+        client.user.setGame(setGame[i],`http://www.twitch.tv/KiNg66S`);
+    }, ms);100000
+
+});
 
 client.login(process.env.BOT_TOKEN);
 

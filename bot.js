@@ -84,6 +84,6 @@ channel.send(`**سبام يولد ام الفلة**`);
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKE);
 
 

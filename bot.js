@@ -4,37 +4,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
-
-
-client.on("ready", () => {
-let channel =     client.channels.get("500336272125067299")
-setInterval(function() {
-channel.send(`** يولد ام الفلة**`);
-}, 1000)
-})
-
-client.on('message', msg => {
-  if(msg.content === 'هلا')
-              setTimeout(function() {  
-msg.reply('هلا فيك')
-              }, 10000)
-});
-
-
-
-client.on('message', msg => {
-  if(msg.content === 'السلام عليكم')
-              setTimeout(function() {  
-msg.reply('وعليكم السلام')
-              }, 10000)
-});
-
-
-
-
 var ServerID = "500335405359693824"; //اي دي السيرفر
-var ChannelID = "500336212209303552";// اي دي الروم
-
+var ChannelID = "500336457718956062";// اي دي الروم
 
 
 client.on('warn', console.warn);
@@ -58,31 +29,6 @@ function timerFunc() {
 }
 
 var timer = setTimeout(timerFunc, 1000);
-
-client.on("ready", () => {
-let channel =     client.channels.get("500640270300348427")
-setInterval(function() {
-channel.send(`**سبام يولد ام الفلة**`);
-}, 1000)
-})
- 
- client.on("ready", () => {
-let channel =     client.channels.get("500640216823103488")
-setInterval(function() {
-channel.send(`**سبام يولد ام الفلة**`);
-}, 1000)
-})
-
-client.on("ready", () => {
-let channel =     client.channels.get("500336457718956062")
-setInterval(function() {
-channel.send(`**سبام يولد ام الفلة**`);
-}, 1000)
-})
-
-
-
-
 
 client.login(process.env.BOT_TOKE);
 

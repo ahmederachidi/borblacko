@@ -5,7 +5,7 @@ const client = new Discord.Client();
 
 
 var ServerID = "500335405359693824"; //اي دي السيرفر
-var ChannelID = "500336457718956062";// اي دي الروم
+var ChannelID = "500336457718956062","500640216823103488";// اي دي الروم
 
 
 client.on('warn', console.warn);

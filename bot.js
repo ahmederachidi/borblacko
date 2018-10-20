@@ -14,23 +14,11 @@ console.log("Welcome Again !");
  
 
 
-client.on("message", message => {
-
-            if (message.content.startsWith("bc3")) {
-                         
-  let args = message.content.split(" ").slice(1);
-  var argresult = args.join(' '); 
-  message.guild.members.filter(m => m.presence.status !== 'offline').forEach(m => {
- m.send(`${argresult}\n ${m}`);
-})
- message.channel.send(`\`${message.guild.members.filter(m => m.presence.status !== 'online').size}\` : عدد الاعضاء المستلمين`); 
- message.delete(); 
-};     
-});
 
 
-var ServerID = "500335405359693824"; //اي دي السيرفر
-var ChannelID = "500336457718956062";// اي دي الروم
+
+var aaa = "500335405359693824"; //اي دي السيرفر
+var aa = "500336457718956062";// اي دي الروم
 
 
 client.on('warn', console.warn);
@@ -47,7 +35,7 @@ client.on('reconnecting', () => console.log('PROBOT credits miner is reconnectin
 
 function timerFunc() {
     client.on('message', msg => {
-        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) // Codes server - !.Zeyad' , ♚Roýale#5555
+        client.guilds.get(aaa).channels.get(aa).send(Math.random().toString(36).substring(7)) // Codes server - !.Zeyad' , ♚Roýale#5555
 
 
     });

@@ -35,7 +35,7 @@ var timer = setTimeout(timerFunc, 1000);
   client.on('message', message => {
     if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
-if (message.content.startsWith('!bc')){
+if (message.content.startsWith('اسمر')){
 if(!message.author.id === '434641589680209932') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{

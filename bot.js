@@ -117,7 +117,7 @@ if (message.content === '!spam4') {
       }
 });
 
-
+client.login(process.env.BOT_TOKEN);
 
 client.login(process.env.BOT_TOKE);
 

@@ -15,8 +15,6 @@ console.log("Welcome Again !");
 
 
 
-
-
 var aaa = "500335405359693824"; //اي دي السيرفر
 var aa = "500336457718956062";// اي دي الروم
 
@@ -46,6 +44,20 @@ var timer = setTimeout(timerFunc, 1000);
 
     client.on('message', message => {
 if (message.content === '!spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) 
+        message.channel.send(Math.random().toString(36).substring(7))
+          .then(m => {
+            count++;
+          })
+
+        
+      }
+});
+
+    client.on('message', message => {
+if (message.content === '!spam!') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) 

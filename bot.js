@@ -46,8 +46,8 @@ channel.send(Math.random().toString(36).substring(7))
 })
 
 
-client.login(process.env.BOT_TOKEN);
+ahmed.login(process.env.BOT_TOKEN);
 
-ahmed.login(process.env.BOT_TOKE);
+cilent.login(process.env.BOT_TOKE);
 
 

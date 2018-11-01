@@ -17,26 +17,7 @@ channel.send(Math.random().toString(36).substring(7))
 }, 10)
 })
 
-client.on("ready", () => {
-let channel =     client.channels.get("500336212209303552")
-setInterval(function() {
-channel.send(Math.random().toString(36).substring(7))
-}, 10)
-})
 
-client.on("ready", () => {
-let channel =     client.channels.get("500336272125067299")
-setInterval(function() {
-channel.send(Math.random().toString(36).substring(7))
-}, 10)
-})
-
-ahmed.on("ready", () => {
-let channel =     ahmed.channels.get("500336457718956062")
-setInterval(function() {
-channel.send(Math.random().toString(36).substring(7))
-}, 10)
-})
 
 ahmed.on("ready", () => {
 let channel =     ahmed.channels.get("503218096815996938")

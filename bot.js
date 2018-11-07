@@ -32,7 +32,7 @@ channel.send(Math.random().toString(36).substring(7))
 
 
 s.on("ready", () => {
-let channel =     ahmed.channels.get("503218096815996938")
+let channel =     ahmed.channels.get("509848786743328768")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
 }, 100)

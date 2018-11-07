@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const ahmed = new Discord.Client();
 
-const s = new Discord.Client();
+
 
 
 
@@ -39,5 +39,4 @@ client.login(process.env.BOT_TOKE);
 
 
 
-s.login(process.env.BOT_S);
 

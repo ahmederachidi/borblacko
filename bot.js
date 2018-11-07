@@ -31,12 +31,7 @@ channel.send(Math.random().toString(36).substring(7))
 })
 
 
-s.on("ready", () => {
-let channel =     ahmed.channels.get("509848786743328768")
-setInterval(function() {
-channel.send(Math.random().toString(36).substring(7))
-}, 100)
-})
+
 
 ahmed.login(process.env.BOT_TOKEN);
 

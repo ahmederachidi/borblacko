@@ -44,5 +44,5 @@ client.login(process.env.BOT_TOKE);
 
 
 
-s.login(process.env.BOT_s);
+s.login(process.env.BOT_S);
 

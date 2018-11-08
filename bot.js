@@ -15,19 +15,19 @@ client.on('ready', () => {
 });
 
 client.on("ready", () => {
-let channel =     client.channels.get("503240014893809684")
+let channel =     client.channels.get("509848741511954454")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+},10)
 })
 
 
 
 ahmed.on("ready", () => {
-let channel =     ahmed.channels.get("503218096815996938")
+let channel =     ahmed.channels.get("509848767168643092")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+},10)
 })
 
 

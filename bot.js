@@ -1,6 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const ahmed = new Discord.Client();
+const b = new Discord.Client();
+const c = new Discord.Client();
+const d = new Discord.Client();
+const e = new Discord.Client();
 
 
 
@@ -14,29 +17,58 @@ client.on('ready', () => {
   console.log('╚[════════════════════════════════════]╝')
 });
 
+
 client.on("ready", () => {
 let channel =     client.channels.get("509848741511954454")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-},10)
+}, 10)
 })
 
 
+client.on("ready", () => {
+let channel =     client.channels.get("500335405359693826")
+setInterval(function() {
+channel.send("#credits")
+}, 500000)
+})
 
-ahmed.on("ready", () => {
-let channel =     ahmed.channels.get("509848767168643092")
+e.on("ready", () => {
+let channel =     e.channels.get("500335405359693826")
+setInterval(function() {
+channel.send("#credits")
+}, 500000)
+})
+
+b.on("ready", () => {
+let channel =     b.channels.get("500335405359693826")
+setInterval(function() {
+channel.send("#credits ")
+}, 500000)
+})
+
+
+e.on("ready", () => {
+let channel =     e.channels.get("509848713599123476")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-},10)
+}, 10)
 })
 
 
+b.on("ready", () => {
+let channel =     b.channels.get("509848786743328768")
+setInterval(function() {
+channel.send(Math.random().toString(36).substring(7))
+}, 10)
+})
 
 
-ahmed.login(process.env.BOT_TOKEN);
+b.login(process.env.BOT_TOKEN);
 
 client.login(process.env.BOT_TOKE);
 
+e.login(process.env.BOT_TOK);
 
 
 

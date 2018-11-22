@@ -26,26 +26,6 @@ channel.send(Math.random().toString(36).substring(7))
 })
 
 
-client.on("ready", () => {
-let channel =     client.channels.get("500335405359693826")
-setInterval(function() {
-channel.send("#credits")
-}, 5000000)
-})
-
-e.on("ready", () => {
-let channel =     e.channels.get("500335405359693826")
-setInterval(function() {
-channel.send("#credits")
-}, 5000000)
-})
-
-b.on("ready", () => {
-let channel =     b.channels.get("500335405359693826")
-setInterval(function() {
-channel.send("#credits ")
-}, 5000000)
-})
 
 
 e.on("ready", () => {

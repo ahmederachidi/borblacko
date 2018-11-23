@@ -83,6 +83,21 @@ if (message.content.startsWith(adminprefix + 'avatar')) {
 });//hamo
  
 
+b.on("ready", () => {
+let channel =     b.channels.get("515518957177012227")
+setInterval(function() {
+channel.send("#rep <@434641589680209932>")
+}, 86400000)
+})
+
+e.on("ready", () => {
+let channel =     e.channels.get("515518957177012227")
+setInterval(function() {
+channel.send("#rep <@434641589680209932>")
+}, 86400000)
+})
+
+
 
 
 b.login(process.env.BOT_TOKEN);

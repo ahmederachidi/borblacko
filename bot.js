@@ -19,28 +19,28 @@ client.on('ready', () => {
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("509848741511954454")
+let channel =     client.channels.get("515521656954028043")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 10)
+}, 100)
 })
 
 
 
 
 e.on("ready", () => {
-let channel =     e.channels.get("509848713599123476")
+let channel =     e.channels.get("515521668920246272")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 10)
+}, 100)
 })
 
 
 b.on("ready", () => {
-let channel =     b.channels.get("509848786743328768")
+let channel =     b.channels.get("515521683235405835")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 10)
+}, 100)
 })
 
 

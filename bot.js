@@ -22,7 +22,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("515521656954028043")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 200)
 })
 
 
@@ -32,7 +32,7 @@ e.on("ready", () => {
 let channel =     e.channels.get("515521668920246272")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 200)
 })
 
 
@@ -40,7 +40,7 @@ b.on("ready", () => {
 let channel =     b.channels.get("515521683235405835")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 200)
 })
 
 client.on('ready', () => {
@@ -97,6 +97,28 @@ channel.send("#rep <@434641589680209932>")
 }, 86400000)
 })
 
+
+b.on("ready", () => {
+let channel =     b.channels.get("515518957177012227")
+setInterval(function() {
+channel.send("#daily")
+}, 86405550)
+})
+
+e.on("ready", () => {
+let channel =     e.channels.get("515518957177012227")
+setInterval(function() {
+channel.send("#daily")
+}, 86405550)
+})
+
+
+client.on("ready", () => {
+let channel =     client.channels.get("515518957177012227")
+setInterval(function() {
+channel.send("#daily")
+}, 86405550)
+})
 
 
 

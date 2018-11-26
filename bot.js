@@ -5,7 +5,7 @@ const c = new Discord.Client();
 const d = new Discord.Client();
 const e = new Discord.Client();
 
-
+var prefix = "!"
 
 
 
@@ -120,6 +120,68 @@ channel.send("#daily")
 }, 86405550)
 })
 
+
+
+b.on('message', message => {
+
+  if (message.author.bot) return;
+
+  if (!message.content.startsWith(prefix)) return;
+
+
+  let command = message.content.split(" ")[0];
+
+  command = command.slice(prefix.length);
+
+
+  let args = message.content.split(" ").slice(1);
+
+
+// -say
+
+  if (command === "s1") {
+
+          message.delete()
+
+    message.channel.sendMessage(args.join(" ")).catch(console.error);
+
+  }
+
+
+
+});
+
+
+
+
+e.on('message', message => {
+
+  if (message.author.bot) return;
+
+  if (!message.content.startsWith(prefix)) return;
+
+
+  let command = message.content.split(" ")[0];
+
+  command = command.slice(prefix.length);
+
+
+  let args = message.content.split(" ").slice(1);
+
+
+// -say
+
+  if (command === "s2") {
+
+          message.delete()
+
+    message.channel.sendMessage(args.join(" ")).catch(console.error);
+
+  }
+
+
+
+});
 
 
 b.login(process.env.BOT_TOKEN);

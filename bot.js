@@ -18,13 +18,6 @@ client.on('ready', () => {
 });
 
 
-client.on("ready", () => {
-let channel =     client.channels.get("515521656954028043")
-setInterval(function() {
-channel.send(Math.random().toString(36).substring(7))
-}, 200)
-})
-
 
 
 

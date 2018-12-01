@@ -141,57 +141,171 @@ s1.on("ready", () => {
 let channel =     s1.channels.get("516687187274629120")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 50)
 })
 
 s2.on("ready", () => {
 let channel =     s2.channels.get("515521668920246272")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 50)
 })
 
 s3.on("ready", () => {
 let channel =     s3.channels.get("515521683235405835")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 50)
 })
 
 s4.on("ready", () => {
 let channel =     s4.channels.get("518056222826692608")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 50)
 })
 
 s5.on("ready", () => {
 let channel =     s5.channels.get("518056236952846337")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 50)
 })
 
 s6.on("ready", () => {
 let channel =     s6.channels.get("518056251930968075")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 50)
 })
 
 s7.on("ready", () => {
 let channel =     s7.channels.get("518446633583771648")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 50)
 })
 
 s8.on("ready", () => {
 let channel =     s8.channels.get("518446711186915330")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
-}, 100)
+}, 50)
 })
+
+s5.on('message', message => {
+
+  if (message.author.bot) return;
+
+  if (!message.content.startsWith(prefix)) return;
+
+
+  let command = message.content.split(" ")[0];
+
+  command = command.slice(prefix.length);
+
+
+  let args = message.content.split(" ").slice(1);
+
+
+// -s
+
+  if (command === "s5") {
+
+          message.delete()
+
+    message.channel.sendMessage(args.join(" ")).catch(console.error);
+
+  }
+
+
+
+});
+s6.on('message', message => {
+
+  if (message.author.bot) return;
+
+  if (!message.content.startsWith(prefix)) return;
+
+
+  let command = message.content.split(" ")[0];
+
+  command = command.slice(prefix.length);
+
+
+  let args = message.content.split(" ").slice(1);
+
+
+// -s
+
+  if (command === "s6") {
+
+          message.delete()
+
+    message.channel.sendMessage(args.join(" ")).catch(console.error);
+
+  }
+
+
+
+});
+s7.on('message', message => {
+
+  if (message.author.bot) return;
+
+  if (!message.content.startsWith(prefix)) return;
+
+
+  let command = message.content.split(" ")[0];
+
+  command = command.slice(prefix.length);
+
+
+  let args = message.content.split(" ").slice(1);
+
+
+// -s
+
+  if (command === "s7") {
+
+          message.delete()
+
+    message.channel.sendMessage(args.join(" ")).catch(console.error);
+
+  }
+
+
+
+});
+s8.on('message', message => {
+
+  if (message.author.bot) return;
+
+  if (!message.content.startsWith(prefix)) return;
+
+
+  let command = message.content.split(" ")[0];
+
+  command = command.slice(prefix.length);
+
+
+  let args = message.content.split(" ").slice(1);
+
+
+// -s
+
+  if (command === "s8") {
+
+          message.delete()
+
+    message.channel.sendMessage(args.join(" ")).catch(console.error);
+
+  }
+
+
+
+});
+
 
 
 s1.login(process.env.BOT_1);

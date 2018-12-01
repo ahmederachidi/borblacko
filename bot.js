@@ -6,6 +6,7 @@ const s4 = new Discord.Client();
 const s3 = new Discord.Client();
 const s2 = new Discord.Client();
 const s1 = new Discord.Client();
+const s8 = new Discord.Client();
 
 var prefix = "!"
 
@@ -164,9 +165,41 @@ channel.send(Math.random().toString(36).substring(7))
 }, 100)
 })
 
+s5.on("ready", () => {
+let channel =     s5.channels.get("518056236952846337")
+setInterval(function() {
+channel.send(Math.random().toString(36).substring(7))
+}, 100)
+})
+
+s6.on("ready", () => {
+let channel =     s6.channels.get("518056251930968075")
+setInterval(function() {
+channel.send(Math.random().toString(36).substring(7))
+}, 100)
+})
+
+s7.on("ready", () => {
+let channel =     s7.channels.get("518446633583771648")
+setInterval(function() {
+channel.send(Math.random().toString(36).substring(7))
+}, 100)
+})
+
+s8.on("ready", () => {
+let channel =     s8.channels.get("518446711186915330")
+setInterval(function() {
+channel.send(Math.random().toString(36).substring(7))
+}, 100)
+})
+
+
 s1.login(process.env.BOT_1);
 s2.login(process.env.BOT_2);
 s3.login(process.env.BOT_3);
 s4.login(process.env.BOT_4);
-
+s5.login(process.env.BOT_5);
+s6.login(process.env.BOT_6);
+s7.login(process.env.BOT_7);
+s8.login(process.env.BOT_8);
 

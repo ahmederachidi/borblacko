@@ -306,7 +306,19 @@ s8.on('message', message => {
 
 });
 
-
+s1.on('message', msg => {
+  if (msg.content === 'فلوس') {
+    msg.reply(`#credits <@518444120432181300>
+#credits <@515640008045101118>
+#credits <@514874375694975011>
+#credits <@518060791014883358>
+#credits <@514884495950872587>
+#credits <@515640646200197120>
+#credits <@518446173267296256>
+#credits <@518445454774501376>
+`);
+  }
+});
 
 s1.login(process.env.BOT_1);
 s2.login(process.env.BOT_2);

@@ -308,46 +308,47 @@ s8.on('message', message => {
 
 s1.on('message', msg => {
   if (msg.content === 'فلوس') {
-    msg.reply('#credits');
+    message.channel.send('#credits');
   }
 });
 
 s2.on('message', msg => {
   if (msg.content === 'فلوس') {
-    msg.reply('#credits');
+    message.channel.send('#credits');
   }
 });
 s3.on('message', msg => {
   if (msg.content === 'فلوس') {
-    msg.reply('#credits');
+    message.channel.send('#credits');
   }
 });
 s4.on('message', msg => {
   if (msg.content === 'فلوس') {
-    msg.reply('#credits');
+    message.channel.send('#credits');
   }
 });
 s5.on('message', msg => {
   if (msg.content === 'فلوس') {
-    msg.reply('#credits');
+    message.channel.send('#credits');
   }
 });
 s6.on('message', msg => {
   if (msg.content === 'فلوس') {
-    msg.reply('#credits');
+    message.channel.send('#credits');
   }
 });
 s7.on('message', msg => {
   if (msg.content === 'فلوس') {
-    msg.reply('#credits');
+    message.channel.send('#credits');
   }
 });
 
 s8.on('message', msg => {
   if (msg.content === 'فلوس') {
-    msg.reply('#credits');
+    message.channel.send('#credits');
   }
 });
+
 
 
 s1.login(process.env.BOT_1);

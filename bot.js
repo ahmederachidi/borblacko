@@ -350,6 +350,50 @@ s8.on('message', msg => {
 });
 
 
+s1.on('message', msg => {
+  if (msg.content === 'rep') {
+    msg.channel.send('#rep @<434641589680209932>');
+  }
+});
+
+s2.on('message', msg => {
+  if (msg.content === 'rep') {
+    msg.channel.send('#rep @<434641589680209932>');
+  }
+});
+s3.on('message', msg => {
+  if (msg.content === 'rep') {
+    msg.channel.send('#rep @<434641589680209932>');
+  }
+});
+s4.on('message', msg => {
+  if (msg.content === 'rep') {
+    msg.channel.send('#rep @<434641589680209932>');
+  }
+});
+s5.on('message', msg => {
+  if (msg.content === 'rep') {
+    msg.channel.send('#rep @<434641589680209932>');
+  }
+});
+s6.on('message', msg => {
+  if (msg.content === 'rep') {
+    msg.channel.send('#rep @<434641589680209932>');
+  }
+});
+s7.on('message', msg => {
+  if (msg.content === 'rep') {
+    msg.channel.send('#rep @<434641589680209932>');
+  }
+});
+
+s8.on('message', msg => {
+  if (msg.content === 'rep') {
+    msg.channel.send('#rep @<434641589680209932>');
+  }
+});
+
+
 
 
 s1.login(process.env.BOT_1);

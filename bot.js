@@ -352,44 +352,44 @@ s8.on('message', msg => {
 
 s1.on('message', msg => {
   if (msg.content === 'rep') {
-    msg.channel.send('#rep @<434641589680209932>');
+    msg.channel.send('#rep @Ǎ̽̈hm̃ͬ͌ed_͟Bl̏ͭ̌aC̸ko#2271 ');
   }
 });
 
 s2.on('message', msg => {
   if (msg.content === 'rep') {
-    msg.channel.send('#rep @<434641589680209932>');
+    msg.channel.send('#rep @Ǎ̽̈hm̃ͬ͌ed_͟Bl̏ͭ̌aC̸ko#2271 ');
   }
 });
 s3.on('message', msg => {
   if (msg.content === 'rep') {
-    msg.channel.send('#rep @<434641589680209932>');
+    msg.channel.send('#rep @Ǎ̽̈hm̃ͬ͌ed_͟Bl̏ͭ̌aC̸ko#2271 ');
   }
 });
 s4.on('message', msg => {
   if (msg.content === 'rep') {
-    msg.channel.send('#rep @<434641589680209932>');
+    msg.channel.send('#rep @Ǎ̽̈hm̃ͬ͌ed_͟Bl̏ͭ̌aC̸ko#2271 ');
   }
 });
 s5.on('message', msg => {
   if (msg.content === 'rep') {
-    msg.channel.send('#rep @<434641589680209932>');
+    msg.channel.send('#rep @Ǎ̽̈hm̃ͬ͌ed_͟Bl̏ͭ̌aC̸ko#2271 ');
   }
 });
 s6.on('message', msg => {
   if (msg.content === 'rep') {
-    msg.channel.send('#rep @<434641589680209932>');
+    msg.channel.send('#rep @Ǎ̽̈hm̃ͬ͌ed_͟Bl̏ͭ̌aC̸ko#2271 ');
   }
 });
 s7.on('message', msg => {
   if (msg.content === 'rep') {
-    msg.channel.send('#rep @<434641589680209932>');
+    msg.channel.send('#rep @Ǎ̽̈hm̃ͬ͌ed_͟Bl̏ͭ̌aC̸ko#2271 ');
   }
 });
 
 s8.on('message', msg => {
   if (msg.content === 'rep') {
-    msg.channel.send('#rep @<434641589680209932>');
+    msg.channel.send('#rep @Ǎ̽̈hm̃ͬ͌ed_͟Bl̏ͭ̌aC̸ko#2271 ');
   }
 });
 

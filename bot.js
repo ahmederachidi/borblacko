@@ -166,7 +166,7 @@ channel.send(Math.random().toString(36).substring(7))
 })
 
 s5.on("ready", () => {
-let channel =     s5.channels.get("518056236952846337")
+let channel =     s5.channels.get("520718184035385354")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
 }, 50)

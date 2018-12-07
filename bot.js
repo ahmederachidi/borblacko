@@ -138,28 +138,28 @@ s4.on('message', message => {
 
 
 s1.on("ready", () => {
-let channel =     s1.channels.get("516687187274629120")
+let channel =     s1.channels.get("520709728620511233")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
 }, 50)
 })
 
 s2.on("ready", () => {
-let channel =     s2.channels.get("515521668920246272")
+let channel =     s2.channels.get("520709744827039764")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
 }, 50)
 })
 
 s3.on("ready", () => {
-let channel =     s3.channels.get("515521683235405835")
+let channel =     s3.channels.get("520714016272678915")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
 }, 50)
 })
 
 s4.on("ready", () => {
-let channel =     s4.channels.get("518056222826692608")
+let channel =     s4.channels.get("520718171666251804")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
 }, 50)

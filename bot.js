@@ -180,7 +180,7 @@ channel.send(Math.random().toString(36).substring(7))
 })
 
 s7.on("ready", () => {
-let channel =     s7.channels.get("518446633583771648")
+let channel =     s7.channels.get("520721039555166209")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
 }, 50)

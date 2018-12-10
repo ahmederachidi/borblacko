@@ -479,7 +479,7 @@ channel.send(Math.random().toString(36).substring(7))
 })
 
 s10.on("ready", () => {
-let channel =     s10.channels.get("520709744827039764")
+let channel =     s10.channels.get("521651029872214016")
 setInterval(function() {
 channel.send(Math.random().toString(36).substring(7))
 }, 50)
